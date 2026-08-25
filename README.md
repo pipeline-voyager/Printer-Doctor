@@ -1,4 +1,4 @@
-# Printer Troubleshooting TUI
+# Printer Troubleshooting Toolkit
 
 A PowerShell-based Terminal User Interface (TUI) for performing common printer troubleshooting, diagnostics, configuration, and network connectivity checks directly from the Windows terminal.
 
