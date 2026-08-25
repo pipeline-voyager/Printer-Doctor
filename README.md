@@ -202,6 +202,28 @@ Depending on the printer and Windows configuration, the tool can inspect:
 
 ---
 
+## Installation
+
+Clone or download the project and place the PowerShell script in a convenient directory.
+
+Example:
+
+```powershell
+git clone https://github.com/pipeline-voyager/Printer-Doctor.git
+
+cd Printer-Doctor/
+```
+
+No additional PowerShell modules or external dependencies are required beyond the Windows components used by the toolbox.
+
+## Running
+
+Open PowerShell and execute:
+
+```powershell
+.\PrinterDoctor.ps1
+```
+
 ## User Interface
 
 The application uses a keyboard-driven TUI.
