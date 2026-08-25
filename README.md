@@ -29,6 +29,38 @@ The tool is designed for IT support technicians, system administrators, help des
 | View printer comment | View printer share name | Refresh printer information |
 | Set the current printer |
 
+<table>
+  <tr>
+    <th>Printer Features</th>
+    <th>Printer Features</th>
+    <th>Printer Features</th>
+  </tr>
+  <tr>
+    <td>Detect installed printers</td>
+    <td>List all installed printers</td>
+    <td>Select an active printer</td>
+  </tr>
+  <tr>
+    <td>Display current printer information</td>
+    <td>View printer status</td>
+    <td>View printer state</td>
+  </tr>
+  <tr>
+    <td>View printer driver</td>
+    <td>View printer port</td>
+    <td>View printer location</td>
+  </tr>
+  <tr>
+    <td>View printer comment</td>
+    <td>View printer share name</td>
+    <td>Refresh printer information</td>
+  </tr>
+  <tr>
+    <td colspan="3">Set the current printer</td>
+  </tr>
+</table>
+
+
 ![Printer TUI](asset/printer_management.png)
 
 ### Printer Diagnostics
