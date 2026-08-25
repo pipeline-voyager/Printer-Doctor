@@ -24,6 +24,8 @@ The tool is designed for IT support technicians, system administrators, help des
 - Refresh printer information
 - Set the current printer
 
+![Printer TUI](asset/printer_management.png)
+
 ---
 
 ### Printer Diagnostics
@@ -72,6 +74,8 @@ This can be useful when troubleshooting:
 - Driver installation problems
 - Printing failures caused by driver issues
 
+![Printer TUI](asset/driver_checking.png)
+
 ---
 
 ### Network Troubleshooting
@@ -90,6 +94,8 @@ Features include:
 - Resolve printer hostname
 - Display network configuration
 - Check connection status
+
+![Printer TUI](asset/network.png)
 
 Common printer ports can include:
 
@@ -118,6 +124,8 @@ Information may include:
 - Port configuration
 - Network printer information
 
+![Printer TUI](asset/port.png)
+
 Useful for identifying problems such as:
 
 - Incorrect IP address
@@ -142,6 +150,8 @@ Features include:
 - Display service information
 - Check service startup configuration
 
+![Printer TUI](asset/spooler.png)
+
 The Print Spooler is one of the most common causes of Windows printing problems.
 
 ---
@@ -160,6 +170,8 @@ Features can include:
 - Show submission time
 - Refresh queue
 - Clear printer queue
+
+![Printer TUI](asset/queue.png)
 
 Queue troubleshooting can help resolve:
 
