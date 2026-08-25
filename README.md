@@ -39,8 +39,6 @@ The tool is designed for IT support technicians, system administrators, help des
   </tr>
 </table>
 
-
-
 ![Printer TUI](asset/printer_management.png)
 
 ### Printer Diagnostics
@@ -81,7 +79,6 @@ Available diagnostic options include:
   </tr>
 </table>
 
-
 ### Driver Checking
 
 The driver diagnostic section can be used to inspect printer driver information.
@@ -110,14 +107,24 @@ Features include:
   </tr>
 </table>
 
-
 This can be useful when troubleshooting:
 
-- Incorrect printer drivers
-- Old drivers
-- Generic drivers
-- Driver installation problems
-- Printing failures caused by driver issues
+<table>
+  <tr>
+    <th>Printer Driver Issues</th>
+    <th>Printer Driver Issues</th>
+    <th>Printer Driver Issues</th>
+  </tr>
+  <tr>
+    <td>Incorrect printer drivers</td>
+    <td>Old drivers</td>
+    <td>Generic drivers</td>
+  </tr>
+  <tr>
+    <td>Driver installation problems</td>
+    <td colspan="2" align="center">Printing failures caused by driver issues</td>
+  </tr>
+</table>
 
 ![Printer TUI](asset/driver_checking.png)
 
@@ -127,16 +134,31 @@ The network troubleshooting section provides tools for investigating network pri
 
 Features include:
 
-- Ping printer IP
-- Test hostname connectivity
-- Test TCP connectivity
-- Check printer IP address
-- Check printer port
-- Test common printer ports
-- Test custom TCP ports
-- Resolve printer hostname
-- Display network configuration
-- Check connection status
+<table>
+  <tr>
+    <th>Network Connectivity</th>
+    <th>Network Connectivity</th>
+    <th>Network Connectivity</th>
+  </tr>
+  <tr>
+    <td>Ping printer IP</td>
+    <td>Test hostname connectivity</td>
+    <td>Test TCP connectivity</td>
+  </tr>
+  <tr>
+    <td>Check printer IP address</td>
+    <td>Check printer port</td>
+    <td>Test common printer ports</td>
+  </tr>
+  <tr>
+    <td>Test custom TCP ports</td>
+    <td>Resolve printer hostname</td>
+    <td>Display network configuration</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Check connection status</td>
+  </tr>
+</table>
 
 ![Printer TUI](asset/network.png)
 
@@ -157,24 +179,48 @@ Inspect the Windows printer port associated with the selected printer.
 
 Information may include:
 
-- Port name
-- Port type
-- IP address
-- Host address
-- Protocol
-- Port configuration
-- Network printer information
+<table>
+  <tr>
+    <th>Printer Port Information</th>
+    <th>Printer Port Information</th>
+    <th>Printer Port Information</th>
+  </tr>
+  <tr>
+    <td>Port name</td>
+    <td>Port type</td>
+    <td>IP address</td>
+  </tr>
+  <tr>
+    <td>Host address</td>
+    <td>Protocol</td>
+    <td>Port configuration</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Network printer information</td>
+  </tr>
+</table>
 
 ![Printer TUI](asset/port.png)
 
 Useful for identifying problems such as:
 
-- Incorrect IP address
-- Wrong printer port
-- Printer moved to another IP
-- Offline network printer
-- Incorrect RAW port
-- Incorrect LPR configuration
+<table>
+  <tr>
+    <th>Printer Port Issues</th>
+    <th>Printer Port Issues</th>
+    <th>Printer Port Issues</th>
+  </tr>
+  <tr>
+    <td>Incorrect IP address</td>
+    <td>Wrong printer port</td>
+    <td>Printer moved to another IP</td>
+  </tr>
+  <tr>
+    <td>Offline network printer</td>
+    <td>Incorrect RAW port</td>
+    <td>Incorrect LPR configuration</td>
+  </tr>
+</table>
 
 ### Print Spooler Troubleshooting
 
@@ -182,12 +228,23 @@ The tool can inspect the Windows Print Spooler service.
 
 Features include:
 
-- Check Print Spooler status
-- Start Print Spooler
-- Stop Print Spooler
-- Restart Print Spooler
-- Display service information
-- Check service startup configuration
+<table>
+  <tr>
+    <th>Print Spooler Management</th>
+    <th>Print Spooler Management</th>
+    <th>Print Spooler Management</th>
+  </tr>
+  <tr>
+    <td>Check Print Spooler status</td>
+    <td>Start Print Spooler</td>
+    <td>Stop Print Spooler</td>
+  </tr>
+  <tr>
+    <td>Restart Print Spooler</td>
+    <td>Display service information</td>
+    <td>Check service startup configuration</td>
+  </tr>
+</table>
 
 ![Printer TUI](asset/spooler.png)
 
@@ -199,24 +256,47 @@ Inspect the print queue of the selected printer.
 
 Features can include:
 
-- Display queued jobs
-- Show job status
-- Show document names
-- Show job owner
-- Show job size
-- Show submission time
-- Refresh queue
-- Clear printer queue
+<table>
+  <tr>
+    <th>Printer Queue Management</th>
+    <th>Printer Queue Management</th>
+    <th>Printer Queue Management</th>
+  </tr>
+  <tr>
+    <td>Display queued jobs</td>
+    <td>Show job status</td>
+    <td>Show document names</td>
+  </tr>
+  <tr>
+    <td>Show job owner</td>
+    <td>Show job size</td>
+    <td>Show submission time</td>
+  </tr>
+  <tr>
+    <td>Refresh queue</td>
+    <td colspan="2" align="center">Clear printer queue</td>
+  </tr>
+</table>
 
 ![Printer TUI](asset/queue.png)
 
 Queue troubleshooting can help resolve:
 
-- Stuck print jobs
-- Documents that never print
-- Jobs stuck in "Printing"
-- Jobs stuck in "Deleting"
-- Printer queue congestion
+<table>
+  <tr>
+    <th>Printer Queue Issues</th>
+    <th>Printer Queue Issues</th>
+    <th>Printer Queue Issues</th>
+  </tr>
+  <tr>
+    <td>Stuck print jobs</td>
+    <td>Documents that never print</td>
+    <td>Jobs stuck in "Printing"</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Jobs stuck in "Deleting" &nbsp;&nbsp;&nbsp; Printer queue congestion</td>
+  </tr>
+</table>
 
 ### Printer Configuration
 
@@ -224,16 +304,31 @@ The configuration section provides access to common printer information and conf
 
 Depending on the printer and Windows configuration, the tool can inspect:
 
-- Printer name
-- Driver
-- Port
-- Location
-- Comment
-- Shared status
-- Published status
-- Default printer status
-- Printer state
-- Printer attributes
+<table>
+  <tr>
+    <th>Printer Information</th>
+    <th>Printer Information</th>
+    <th>Printer Information</th>
+  </tr>
+  <tr>
+    <td>Printer name</td>
+    <td>Driver</td>
+    <td>Port</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Comment</td>
+    <td>Shared status</td>
+  </tr>
+  <tr>
+    <td>Published status</td>
+    <td>Default printer status</td>
+    <td>Printer state</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Printer attributes</td>
+  </tr>
+</table>
 
 ## Installation
 
