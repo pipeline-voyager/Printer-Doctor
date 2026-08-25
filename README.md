@@ -35,7 +35,7 @@ The tool is designed for IT support technicians, system administrators, help des
     <td>Refresh printer information</td>
   </tr>
   <tr>
-    <td colspan="3">Set the current printer</td>
+    <td colspan="3">              Set the current printer</td>
   </tr>
 </table>
 
