@@ -4,8 +4,6 @@ A PowerShell-based Terminal User Interface (TUI) for performing common printer t
 
 The tool is designed for IT support technicians, system administrators, help desk personnel, and anyone who needs a quick way to troubleshoot printers without navigating through multiple Windows configuration panels.
 
----
-
 ## Features
 
 ### Printer Management
@@ -25,8 +23,6 @@ The tool is designed for IT support technicians, system administrators, help des
 - Set the current printer
 
 ![Printer TUI](asset/printer_management.png)
-
----
 
 ### Printer Diagnostics
 
@@ -48,8 +44,6 @@ Available diagnostic options include:
 - Ping test
 - Printer port connectivity
 - Printer information report
-
----
 
 ### Driver Checking
 
@@ -75,8 +69,6 @@ This can be useful when troubleshooting:
 - Printing failures caused by driver issues
 
 ![Printer TUI](asset/driver_checking.png)
-
----
 
 ### Network Troubleshooting
 
@@ -108,8 +100,6 @@ Common printer ports can include:
 | 9100 | TCP | RAW / JetDirect |
 | 161 | UDP | SNMP |
 
----
-
 ### Printer Port Diagnostics
 
 Inspect the Windows printer port associated with the selected printer.
@@ -135,8 +125,6 @@ Useful for identifying problems such as:
 - Incorrect RAW port
 - Incorrect LPR configuration
 
----
-
 ### Print Spooler Troubleshooting
 
 The tool can inspect the Windows Print Spooler service.
@@ -153,8 +141,6 @@ Features include:
 ![Printer TUI](asset/spooler.png)
 
 The Print Spooler is one of the most common causes of Windows printing problems.
-
----
 
 ### Printer Queue
 
@@ -181,8 +167,6 @@ Queue troubleshooting can help resolve:
 - Jobs stuck in "Deleting"
 - Printer queue congestion
 
----
-
 ### Printer Configuration
 
 The configuration section provides access to common printer information and configuration.
@@ -199,8 +183,6 @@ Depending on the printer and Windows configuration, the tool can inspect:
 - Default printer status
 - Printer state
 - Printer attributes
-
----
 
 ## Installation
 
