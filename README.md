@@ -22,6 +22,12 @@ The tool is designed for IT support technicians, system administrators, help des
 - Refresh printer information
 - Set the current printer
 
+| Detect installed printers | List all installed printers | Select an active printer |
+| Display current printer information | View printer status | View printer state |
+| View printer driver | View printer port | View printer location |
+| View printer comment | View printer share name | Refresh printer information |
+| Set the current printer |
+
 ![Printer TUI](asset/printer_management.png)
 
 ### Printer Diagnostics
