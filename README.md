@@ -88,14 +88,28 @@ The driver diagnostic section can be used to inspect printer driver information.
 
 Features include:
 
-- Display installed printer driver
-- Check driver name
-- Check driver version
-- Check driver provider
-- Check driver environment
-- Check driver architecture
-- Identify missing driver information
-- Refresh driver information
+<table>
+  <tr>
+    <th>Printer Driver</th>
+    <th>Printer Driver</th>
+    <th>Printer Driver</th>
+  </tr>
+  <tr>
+    <td>Display installed printer driver</td>
+    <td>Check driver name</td>
+    <td>Check driver version</td>
+  </tr>
+  <tr>
+    <td>Check driver provider</td>
+    <td>Check driver environment</td>
+    <td>Check driver architecture</td>
+  </tr>
+  <tr>
+    <td>Identify missing driver information</td>
+    <td colspan="2" align="center">Refresh driver information</td>
+  </tr>
+</table>
+
 
 This can be useful when troubleshooting:
 
