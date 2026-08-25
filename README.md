@@ -49,20 +49,38 @@ Perform common printer troubleshooting checks from a single interface.
 
 Available diagnostic options include:
 
-- Printer status check
-- Printer availability check
-- Printer queue check
-- Print spooler check
-- Printer driver check
-- Printer port check
-- Printer configuration check
-- Network connectivity check
-- TCP connectivity test
-- IP address test
-- DNS/hostname test
-- Ping test
-- Printer port connectivity
-- Printer information report
+<table>
+  <tr>
+    <th>Printer Diagnostics</th>
+    <th>Printer Diagnostics</th>
+    <th>Printer Diagnostics</th>
+  </tr>
+  <tr>
+    <td>Printer status check</td>
+    <td>Printer availability check</td>
+    <td>Printer queue check</td>
+  </tr>
+  <tr>
+    <td>Print spooler check</td>
+    <td>Printer driver check</td>
+    <td>Printer port check</td>
+  </tr>
+  <tr>
+    <td>Printer configuration check</td>
+    <td>Network connectivity check</td>
+    <td>TCP connectivity test</td>
+  </tr>
+  <tr>
+    <td>IP address test</td>
+    <td>DNS/hostname test</td>
+    <td>Ping test</td>
+  </tr>
+  <tr>
+    <td>Printer port connectivity</td>
+    <td colspan="2" align="center">Printer information report</td>
+  </tr>
+</table>
+
 
 ### Driver Checking
 
